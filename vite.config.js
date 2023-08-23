@@ -3,7 +3,7 @@
 export default {
     // config options
     build: {
-        outDir: "preview",
+        outDir: "assets",
         cssTarget: "chrome61",
         minify: false,
 
