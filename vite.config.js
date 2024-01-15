@@ -3,9 +3,10 @@
 export default {
     // config options
     build: {
-        outDir: "assets",
+        outDir: "benoitchangeat-divichildtheme",
         cssTarget: "chrome61",
         minify: false,
+        emptyOutDir: false,
 
 
     },

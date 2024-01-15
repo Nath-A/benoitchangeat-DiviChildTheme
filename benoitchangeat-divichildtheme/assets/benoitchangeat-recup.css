@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  font-variant-numeric: lining-nums;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #2E20A7;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.heading-secondary--up {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.heading-secondary--main {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.heading-secondary--sub {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FFA015;
+  line-height: 0.4;
+}
+
+.heading-tertiary {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.heading-tertiary span {
+  display: block;
+  font-weight: 800;
+}
+
+.teaser__heading {
+  text-align: center;
+}
+
+.quote {
+  color: #fff;
+  text-align: center;
+}
+.quote__text {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.quote__author {
+  font-size: 2rem;
+  line-height: 250%;
+}
+
+.about__coach__text {
+  text-align: justify;
+}
+.about__arrow__text {
+  text-align: center;
+}
+
+.trust__item__heading {
+  font-weight: 700;
+}
+
+.offers__item__text__paragraph {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.faq__heading {
+  text-align: center;
+}
+.faq__item__question, .faq__item__answer {
+  font-size: 1.6rem;
+}
+.faq__item__question {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.faq__item__answer {
+  font-weight: 400;
+}
+.testimonials__item {
+  text-align: center;
+}
+.testimonials__item__heading__name {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.testimonials__item__heading__status {
+  font-weight: 400;
+}
+.call__heading {
+  text-align: center;
+}
+.call__heading .heading-secondary--main {
+  text-indent: -14rem;
+}
+.call__heading .heading-secondary--sub {
+  text-indent: 14rem;
+}
+.call__text {
+  text-align: center;
+}
+
+.newsletter__baseline {
+  text-transform: uppercase;
+}
+
+.footer > * {
+  font-size: 1.2rem;
+}
+.footer__copyright {
+  font-weight: 700;
+}
+
+.legal-notices__heading-primary,
+.privacy-policy__heading-primary {
+  text-align: center;
+}
+.legal-notices__heading-tertiary,
+.privacy-policy__heading-tertiary {
+  text-align: left;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.u_rotate3 {
+  display: inline-block !important;
+  transform: rotate(-3deg) !important;
+}
+
+.u_btn-right {
+  display: grid !important;
+  justify-items: end !important;
+}
+
+.u_underline-svg {
+  display: grid !important;
+  justify-content: center !important;
+}
+
+.u_hidden {
+  display: none !important;
+}
+
+.u_item-selected {
+  transform: scale(110%) !important;
+  z-index: 1001 !important;
+}
+
+.u_to-fix {
+  font-weight: 700;
+  color: red;
+}

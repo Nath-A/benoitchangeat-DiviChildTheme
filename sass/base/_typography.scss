@@ -1,0 +1,334 @@
+@use '../abstracts' as *;
+
+body
+{
+    font-family: $font-family;
+}
+
+strong
+{
+    font-weight: 700;
+}
+
+a
+{
+    color: $color-primary;
+}
+
+.heading-secondary
+{
+
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+    &--up
+    {
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 1.5;
+
+
+    }
+
+    &--main
+    {
+        font-weight: 700;
+        font-size: 4rem;
+
+        // @include responsive(laptop-l)
+        // {
+        //     font-size: 5rem;
+        // }
+
+        // @include responsive(laptop)
+        // {
+        //     font-size: 4.5rem;
+        // }
+
+        // @include responsive(tablet)
+        // {
+        //     font-size: 4rem;
+        // }
+
+        // @include responsive(phone)
+        // {
+        //     font-size: 3.5rem;
+        // }
+    }
+
+    &--sub
+    {
+        font-weight: 700;
+        font-size: 3rem;
+        color: $color-secondary;
+        line-height: 0.4;
+
+        // @include responsive(laptop-l)
+        // {
+        //     font-size: 4.5rem;
+        // }
+
+        // @include responsive(laptop)
+        // {
+        //     font-size: 4rem;
+        // }
+
+        // @include responsive(tablet)
+        // {
+        //     font-size: 3.5rem;
+        // }
+
+        // @include responsive(phone)
+        // {
+        //     font-size: 3rem;
+        //     line-height: initial;
+        // }
+
+    }
+}
+
+.heading-tertiary
+{
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+
+
+
+    span
+    {
+        display: block;
+        font-weight: 800;
+    }
+
+}
+
+//? ---------------------------------- teaser
+.teaser__heading
+{
+    text-align: center;
+
+
+}
+
+//? ---------------------------------- QUOTE
+
+.quote
+{
+    color: $color-white;
+    text-align: center;
+
+    &__text
+    {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        // line-height: 4rem;
+    }
+
+    &__author
+    {
+        font-size: 2rem;
+        line-height: 250%;
+    }
+}
+
+//? ---------------------------------- ABOUT
+.about
+{
+    &__coach__text
+    {
+        text-align: justify;
+    }
+
+    &__arrow__text
+    {
+        text-align: center;
+    }
+}
+
+//? ---------------------------------- TRUST
+
+.trust__item
+{
+    &__heading
+    {
+        // font-size: 2.5rem;
+        font-weight: 700;
+
+    }
+
+}
+
+//? ---------------------------------- OFFERS
+
+.offers
+{
+
+    &__item
+    {
+
+        &__text
+        {
+            &__paragraph
+            {
+                font-size: 1.5rem;
+                line-height: 1.2;
+            }
+        }
+
+    }
+}
+
+//? ---------------------------------- FAQ
+.faq
+{
+    &__heading
+    {
+        text-align: center;
+    }
+
+    &__item
+    {
+
+        &__question,
+        &__answer
+        {
+            font-size: 1.6rem;
+        }
+
+        &__question
+        {
+            font-weight: 600;
+            text-transform: uppercase;
+
+        }
+
+        &__answer
+        {
+            font-weight: 400;
+
+        }
+
+        &__list__item
+        {
+            // font-size: 1.4rem;
+            // line-height: 2rem;
+        }
+    }
+}
+
+//? ---------------------------------- TESTIMONIALS
+.testimonials__item
+{
+    text-align: center;
+
+    &__heading
+    {
+        // font-size: 1.5rem;
+
+
+        &__name
+        {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        &__status
+        {
+            font-weight: 400;
+        }
+    }
+
+    &__text
+    {
+        // font-size: 1.5rem;
+    }
+}
+
+//? ----------------------------------- CALL
+.call
+{
+
+    &__heading
+    {
+        text-align: center;
+
+        .heading-secondary--main
+        {
+
+            text-indent: -14rem;
+        }
+
+        .heading-secondary--sub
+        {
+            text-indent: 14rem;
+
+        }
+
+    }
+
+    &__text
+    {
+        text-align: center;
+    }
+}
+
+//? ----------------------------------- CALL
+.newsletter
+{
+    &__baseline
+    {
+        text-transform: uppercase;
+        // font-size: 1.6rem;
+
+    }
+}
+
+//? ----------------------------------- FOOTER
+.footer
+{
+
+    & > *
+    {
+
+        font-size: 1.2rem;
+    }
+
+    &__copyright
+    {
+        font-weight: 700;
+    }
+}
+
+//? ----------------------------------- LEGAL NOTICES
+.legal-notices,
+.privacy-policy
+{
+    &__heading
+    {
+        &-primary
+        {
+            text-align: center;
+        }
+
+        &-secondary
+        {
+            margin-bottom: 0;
+        }
+
+        &-tertiary
+        {
+            text-align: left;
+            font-size: 2rem;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+    }
+
+
+}

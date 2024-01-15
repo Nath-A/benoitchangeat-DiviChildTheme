@@ -5,7 +5,6 @@ function benoitchangeat_css_assets()
     wp_register_style('css', get_stylesheet_directory_uri() . '/assets/benoitchangeat-recup.css', array(), null);
 
 
-
     wp_enqueue_script('css');
 }
 
